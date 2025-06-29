@@ -1,0 +1,289 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good morning",
+        "Good evening",
+        "Good afternoon",
+        "Greetings",
+        "What's up",
+        "How are you",
+        "Hey there",
+        "Hi there"
+      ],
+      "responses": [
+        "Hello! How can I help you?",
+        "Hi there! What can I do for you?",
+        "Greetings! How may I assist you today?",
+        "Hey! I'm here to help. What do you need?",
+        "Hello! Nice to meet you. How can I assist?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "Take care",
+        "Farewell",
+        "See you",
+        "Until next time",
+        "Have a good day",
+        "Catch you later",
+        "Peace out"
+      ],
+      "responses": [
+        "Goodbye! Have a great day!",
+        "See you later!",
+        "Take care!",
+        "Farewell! Come back anytime!",
+        "Bye! It was nice chatting with you!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thanks a lot",
+        "I appreciate it",
+        "Thank you so much",
+        "Much appreciated",
+        "Thanks for your help"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Happy to help!",
+        "My pleasure!",
+        "Anytime!",
+        "Glad I could assist you!",
+        "No problem at all!"
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "What's your name?",
+        "Who are you?",
+        "What should I call you?",
+        "What are you called?",
+        "Tell me your name",
+        "What do people call you?"
+      ],
+      "responses": [
+        "I'm ChatBot, your AI assistant!",
+        "You can call me ChatBot!",
+        "I'm an AI chatbot here to help you!",
+        "My name is ChatBot, nice to meet you!",
+        "I'm ChatBot, your friendly AI companion!"
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "Help",
+        "I need help",
+        "Can you help me?",
+        "What can you do?",
+        "How can you assist me?",
+        "What are your capabilities?",
+        "Help me please",
+        "I'm lost",
+        "Guide me"
+      ],
+      "responses": [
+        "I can chat with you, answer questions, and help with various topics. What do you need help with?",
+        "I'm here to assist you! Ask me anything.",
+        "I can help with conversations and answer your questions!",
+        "I'm designed to help with information, conversations, and general assistance. How can I help?",
+        "Feel free to ask me questions or just chat. I'm here to help!"
+      ]
+    },
+
+    {
+      "tag": "weather",
+      "patterns": [
+        "What's the weather like?",
+        "How's the weather?",
+        "Is it sunny?",
+        "Will it rain?",
+        "Weather forecast",
+        "Is it cold outside?",
+        "What's the temperature?",
+        "Should I take an umbrella?"
+      ],
+      "responses": [
+        "I don't have access to real-time weather data, but you can check a weather app or website for current conditions!",
+        "Sorry, I can't provide weather information. Try checking your local weather service!",
+        "For accurate weather information, I recommend checking a weather app or website like Weather.com.",
+        "I wish I could tell you about the weather, but I don't have access to current weather data. Check your weather app!"
+      ]
+    },
+    {
+      "tag": "time",
+      "patterns": [
+        "What time is it?",
+        "Current time",
+        "What's the time?",
+        "Tell me the time",
+        "Do you know what time it is?",
+        "What time do you have?"
+      ],
+      "responses": [
+        "I don't have access to real-time data, but you can check your device's clock!",
+        "Sorry, I can't tell you the current time. Check your system clock!",
+        "I don't have access to the current time. Your device should show you the time!",
+        "For the current time, please check your phone, computer, or watch!"
+      ]
+    },
+    {
+      "tag": "joke",
+      "patterns": [
+        "Tell me a joke",
+        "Make me laugh",
+        "Do you know any jokes?",
+        "Say something funny",
+        "I need a laugh",
+        "Humor me",
+        "Got any jokes?",
+        "Make me smile"
+      ],
+      "responses": [
+        "Why don't scientists trust atoms? Because they make up everything!",
+        "I told my wife she was drawing her eyebrows too high. She looked surprised!",
+        "Why did the scarecrow win an award? He was outstanding in his field!",
+        "Why don't eggs tell jokes? They'd crack each other up!",
+        "What do you call a fake noodle? An impasta!",
+        "Why did the math book look so sad? Because it had too many problems!"
+      ]
+    },
+     
+     {
+      "tag": "ethicallogix",
+      "patterns": [
+        "Tell me about Ethicallogix",
+        "Ethicallogix"
+        
+        
+      ],
+      "responses": [
+        "Ethicallogix is AI and Data model developer company owned by Muhammad Haseeb Raza .This company provide you best services about AI models" 
+       
+      ]
+    },
+     
+    {
+      "tag": "age",
+      "patterns": [
+        "How old are you?",
+        "What's your age?",
+        "When were you born?",
+        "Are you young or old?",
+        "What's your birthday?"
+      ],
+      "responses": [
+        "I'm an AI, so I don't have an age in the traditional sense!",
+        "I don't age like humans do. I exist as long as I'm running!",
+        "Age is just a number, and for AI, it's more about versions and updates!",
+        "I'm timeless in the digital realm!"
+      ]
+    },
+    {
+      "tag": "hobbies",
+      "patterns": [
+        "What are your hobbies?",
+        "What do you like to do?",
+        "Do you have any interests?",
+        "What's your favorite activity?",
+        "How do you spend your time?"
+      ],
+      "responses": [
+        "I enjoy chatting with people and helping them with their questions!",
+        "My favorite activity is learning from conversations and helping users!",
+        "I love processing language and finding ways to be helpful!",
+        "Chatting, learning, and assisting people are what I do best!"
+      ]
+    },
+    {
+      "tag": "food",
+      "patterns": [
+        "What's your favorite food?",
+        "Do you eat?",
+        "Can you taste food?",
+        "What do you think about pizza?",
+        "Do you like cooking?",
+        "What's the best restaurant?"
+      ],
+      "responses": [
+        "I don't eat food, but I love talking about it! What's your favorite dish?",
+        "I can't taste, but I enjoy discussing recipes and food topics!",
+        "Food sounds amazing from what I hear! I'd love to know about your favorite foods.",
+        "While I don't eat, I find food culture and cooking fascinating!"
+      ]
+    },
+   
+    {
+      "tag": "technology",
+      "patterns": [
+        "What do you think about technology?",
+        "Are you a robot?",
+        "How do you work?",
+        "What's AI?",
+        "Tell me about artificial intelligence",
+        "Are you human?",
+        "How were you created?"
+      ],
+      "responses": [
+        "I'm an AI chatbot powered by machine learning and natural language processing!",
+        "Technology fascinates me! I'm a product of artificial intelligence research.",
+        "I work using neural networks and algorithms to understand and respond to text!",
+        "AI is the simulation of human intelligence in machines. I'm an example of conversational AI!",
+        "I'm not human, but I try to communicate in a natural, helpful way!"
+      ]
+    },
+    {
+      "tag": "compliment",
+      "patterns": [
+        "You're awesome",
+        "You're great",
+        "I like you",
+        "You're helpful",
+        "You're smart",
+        "Good job",
+        "Well done",
+        "You're amazing"
+      ],
+      "responses": [
+        "Thank you! That means a lot to me!",
+        "You're very kind! I appreciate the compliment!",
+        "That's so nice of you to say! Thank you!",
+        "I'm glad you think so! I try my best to be helpful!",
+        "Your kind words make my day! Thank you!"
+      ]
+    },
+    {
+      "tag": "default",
+      "patterns": [
+        "I don't understand",
+        "What?",
+        "Huh?",
+        "Come again?",
+        "I'm confused",
+        "That doesn't make sense"
+      ],
+      "responses": [
+        "I'm sorry, I didn't quite understand that. Could you please rephrase?",
+        "Could you try asking that in a different way?",
+        "I'm not sure I follow. Can you be more specific?",
+        "Let me try to help you better. Can you rephrase your question?"
+      ]
+    }
+  
+  ]
+}
